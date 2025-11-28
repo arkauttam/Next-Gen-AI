@@ -31,7 +31,7 @@ const Hero = () => {
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
 
       {/* Content */}
-      <div className="container relative z-10 px-4 py-20 mx-auto text-center">
+      <div className="container relative z-10 px-4 pb-52 md:pt-0 pt-8 mx-auto text-center">
         <div className="animate-slide-in">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 glass px-4 py-2 rounded-full mb-8">
@@ -92,7 +92,7 @@ const Hero = () => {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.2, duration: 0.8 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2"
+        className="absolute bottom-4 -translate-x-1/2"
       >
         <motion.div
           animate={{ y: [0, 10, 0] }}
